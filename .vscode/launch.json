@@ -1,0 +1,69 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClientDiscount<Project1Lesson3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "ClientDiscount",
+            "args": "",
+            "projectName": "Project1Lesson3"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfOrSwitch<Project2Lesson3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "IfOrSwitch",
+            "args": "",
+            "projectName": "Project2Lesson3"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayIteration<Project3Lesson3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "ArrayIteration",
+            "args": "",
+            "projectName": "Project3Lesson3"
+        }, 
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DummySongGenerator<Project4Lesson3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "DummySongGenerator",
+            "args": "",
+            "projectName": "Project4Lesson3"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 1234
+        }
+    ]
+}
